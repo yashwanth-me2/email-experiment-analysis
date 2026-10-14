@@ -1,0 +1,121 @@
+{
+  "srm_p_value": 0.904,
+  "max_abs_smd": 0.0086,
+  "Mens E-Mail|visit": {
+    "control": 0.10616727682343002,
+    "treatment": 0.18275684047496127,
+    "diff": 0.07658956365153125,
+    "ci_low": 0.06995350121810838,
+    "ci_high": 0.08322562608495411,
+    "relative_lift_pct": 72.1404616781399,
+    "p_value": 5.685165482802317e-112,
+    "p_holm": 3.41109928968139e-111
+  },
+  "Mens E-Mail|conversion": {
+    "control": 0.005726086548390125,
+    "treatment": 0.01253109306800582,
+    "diff": 0.006805006519615695,
+    "ci_low": 0.005000171380452313,
+    "ci_high": 0.008609841658779076,
+    "relative_lift_pct": 118.84218762863279,
+    "p_value": 1.5232235005955427e-13,
+    "p_holm": 6.092894002382171e-13
+  },
+  "Mens E-Mail|spend": {
+    "control": 0.6527893551112361,
+    "treatment": 1.422616511005773,
+    "diff": 0.7698271558945368,
+    "ci_low": 0.4855973544572549,
+    "ci_high": 1.0629855905306205,
+    "relative_lift_pct": 117.92887703620063,
+    "p_value": 1.163814968225482e-07,
+    "p_holm": 3.491444904676446e-07
+  },
+  "Womens E-Mail|visit": {
+    "control": 0.10616727682343002,
+    "treatment": 0.151400383410483,
+    "diff": 0.045233106587052985,
+    "ci_low": 0.03889382581264261,
+    "ci_high": 0.05157238736146336,
+    "relative_lift_pct": 42.60550702669102,
+    "p_value": 3.1824031593349214e-44,
+    "p_holm": 1.5912015796674606e-43
+  },
+  "Womens E-Mail|conversion": {
+    "control": 0.005726086548390125,
+    "treatment": 0.008837144059475383,
+    "diff": 0.003111057511085258,
+    "ci_low": 0.0014986778214022348,
+    "ci_high": 0.004723437200768281,
+    "relative_lift_pct": 54.33130436982172,
+    "p_value": 0.00015710512910668448,
+    "p_holm": 0.00031421025821336897
+  },
+  "Womens E-Mail|spend": {
+    "control": 0.6527893551112361,
+    "treatment": 1.0772015710478329,
+    "diff": 0.4244122159365967,
+    "ci_low": 0.16072488536048676,
+    "ci_high": 0.6782761965473885,
+    "relative_lift_pct": 65.01518638646861,
+    "p_value": 0.0011293971023632495,
+    "p_holm": 0.0011293971023632495
+  },
+  "cuped_var_reduction_visit_multi_pct": 2.67,
+  "cuped_var_reduction_spend_history_pct": 0.047,
+  "corr_history_spend": 0.0217,
+  "peeking_n_peeks": 21,
+  "fpr_single_look": 0.055,
+  "fpr_naive_peeking": 0.2385,
+  "fpr_sequential_obf": 0.049,
+  "obf_c": 2.108815865817148,
+  "seq_detect_rate": 1.0,
+  "fixed_detect_rate": 1.0,
+  "seq_avg_data_used": 0.5709601105567658,
+  "interaction|Mens E-Mail": {
+    "diff_pp": -0.14244124622650595,
+    "p_value": 0.8364514090802027
+  },
+  "interaction|Womens E-Mail": {
+    "diff_pp": -6.290686777618028,
+    "p_value": 1.1563166698676027e-21
+  },
+  "segment_lifts_pp": {
+    "Mens E-Mail|Bought both": 13.44,
+    "Womens E-Mail|Bought both": 7.11,
+    "Mens E-Mail|Bought mens only": 6.92,
+    "Womens E-Mail|Bought mens only": 1.11,
+    "Mens E-Mail|Bought womens only": 7.06,
+    "Womens E-Mail|Bought womens only": 7.4
+  },
+  "segments_significant_after_holm": 22,
+  "segments_tested": 22,
+  "uplift_top3_vs_bottom3|Mens E-Mail": [
+    9.6,
+    7.2
+  ],
+  "uplift_top3_vs_bottom3|Womens E-Mail": [
+    8.06,
+    1.67
+  ],
+  "top10k": {
+    "test_group_size": 3000,
+    "n_got_best": 969,
+    "n_got_none": 1000,
+    "visit_lift_pp": 12.080598555211559,
+    "visit_ci_pp": [
+      8.639390891145213,
+      15.521806219277904
+    ],
+    "random_visit_lift_pp": 7.6589563651531245,
+    "extra_visits_per_10k_targeted": 1208.059855521156,
+    "extra_visits_per_10k_random": 765.8956365153125,
+    "spend_lift_targeted": 1.3036698881857585,
+    "spend_ci_targeted": [
+      0.03693119969040213,
+      2.7468741480908148
+    ],
+    "spend_lift_random": 0.7698271558945368,
+    "best_email_share_mens": 0.759
+  }
+}
